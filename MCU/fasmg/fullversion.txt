@@ -1,0 +1,1 @@
+To get the full and latest version of fasmg please visit http://flatassembler.net

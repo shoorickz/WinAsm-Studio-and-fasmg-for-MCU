@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=8BIT
+Exec=wine c:\MCU\winasm\winasm.exe
+Icon=/home/my_user_name/.wine/drive_c/MCU/8bit.svg
+Terminal=false
+Comment=WinAsm Studio + FASM G [8-Bit Suite]
+GenericName[en]=8BIT
+

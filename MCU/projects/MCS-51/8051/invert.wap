@@ -1,0 +1,76 @@
+[PROJECT]
+Type=4
+Make=
+HOST=
+Compiler=BATCH
+Open Properties=00
+AddIn=0
+AutoClean=1
+ReleaseCommandLine=
+DebugCommandLine=
+ViaConsole=0
+DirectCommandLine=0
+RC_INC=rc.inc
+RCSilent=0
+AutoIncFileVersion=0
+FasmRC=1
+RC2FASM=0
+PellesTools=0
+[MAKE]
+Out=invert.hex
+DebOut=invert.hex
+BatchRedir=1
+CustomClean=
+NamEnv=1
+Make=
+DebMake=
+MakeIgnore=0
+MAKE_RST=0
+MAKE_RST_SW=
+CompileRC=
+RCToObj=
+RCIgnore=0
+KeepRC=0
+Assemble=%FASMG%\fasmg.exe %asm_name%.asm %out_name%
+DebAssemble=%FASMG%\fasmg.exe %asm_name%.asm %out_name%
+ModuleExt=obj
+AssembleIgnore=0
+Link=
+DebLink=
+LinkIgnore=0
+[FILES]
+1=invert.asm
+[VERSION]
+Version=0
+SubVersion=0
+Build=4
+Pack=0
+KeepBV=0
+AppVer=0
+AppSubVer=0
+AppBuild=3
+AppPVer=0
+ArcZeroPack=1
+[SCAN]
+Main=
+Module=
+Auto=0
+ScanModule=0
+OnError=0
+[ASSEMBLER]
+KeyFile=:i8051\8051.VAS
+APIFunctionsFile=nul
+APIStructuresFile=nul
+APIConstantsFile=nul
+IncludePath=:8051
+Proc=proc $
+EndP=endp
+Struct=struc $
+Ends=end struc
+Macro=macro $
+Endm=end macro
+FasmProcStyle=1
+[ENVIRONMENT]
+INCLUDE=%I8051%;%FASMG%\INCLUDE
+[SHOWFILE]
+1=F8FFFFFFE2FFFFFF4704000081020000000000000300000010000000B5

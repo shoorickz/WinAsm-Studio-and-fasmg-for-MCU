@@ -1,0 +1,18 @@
+[HELP]
+0C010h=Clear screen
+0C170h=Beep (8FF1 - tone, 8FF2 - length)
+0C803h=Wait for the keypress (A - key code)
+0C809h=Put char to the screen (C - char, 8FE7 - (word)font_adr/8)
+0C80Fh=Input string from the keyboard (HL - start, DE - end of buffer)
+0C812h=Get pressed key without wait (A: code, or FF - not pressed)
+0C815h=Print A to the screen in hex format
+0C818h=Output zero terminated string (HL - pstr)
+0C81Eh=Get current cursor position (H - hor., L - vert.)
+mmul=[BC] = [HL] x [DE] , A - BYTES , [BC] - A x 2 BYTES
+mmulb=HL^NUM B=BYTES -> HL^NUM x A, B=BYTES, A=HIGHEST VALUE
+maddx=[BC] = [HL] + [DE], A - bytes
+msub=[HL] = [HL] - [DE], B - bytes
+madd=[HL] = [HL] + [DE], B - bytes
+mcopy=HL^NUM <- DE^NUM B=BYTES
+mral=CY <- [HL] <- CY , B=BYTES
+mset=HL-> NUM B=BYTES A=BYTE TO SET

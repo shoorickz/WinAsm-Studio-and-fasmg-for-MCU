@@ -1,1 +1,3 @@
-To get full version of WinAsm Studio, please, visit http://winasm.net
+To get full version of WinAsm Studio, please, visit https://code.google.com/archive/p/winasm-studio/downloads
+as httр://winasm.net is not more available.
+To use tools other than masm32 fasm add-in (wafasm.dll) is required.

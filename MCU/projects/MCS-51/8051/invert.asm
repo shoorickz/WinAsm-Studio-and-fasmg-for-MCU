@@ -2,7 +2,7 @@
 ; This simple example reads the analog signal from ADC and outputs it
 ; inversed (relative to the maximum voltage) through DAC.
 
-;include 'hex.inc' ; generating the Intel hex output instead of binary
+include 'hex.inc' ; generating the Intel hex output instead of binary
 include '8051.inc'
 
 ORG 0
